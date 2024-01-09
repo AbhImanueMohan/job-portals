@@ -1,0 +1,75 @@
+[
+    {
+      "no":"1",
+      "Name":"Fixtures",
+      "type":"C"  
+    },
+    {
+        "no":"2",
+        "Name":"Switches",
+        "type":"C"  
+      },
+      {
+        "no":"3",
+        "Name":"Receptacles",
+        "type":"C"  
+      },
+      {
+        "no":"4",
+        "Name":"Computer & Phone",
+        "type":"C"  
+      },
+      {
+        "no":"5",
+        "Name":"Fire Alaram",
+        "type":"C"  
+      },
+      {
+        "no":"6",
+        "Name":"EMT(Branch)",
+        "type":"C"  
+      },
+      {
+        "no":"7",
+        "Name":"EMT(Feeder)",
+        "type":"C"  
+      },
+      {
+        "no":"8",
+        "Name":"GRC(Feeder)",
+        "type":"C"  
+      },
+      {
+        "no":"9",
+        "Name":"GRC(Branch)",
+        "type":"C"  
+      },
+      {
+        "no":"10",
+        "Name":"Cable(Branch)",
+        "type":"C"  
+      },
+      {
+        "no":"11",
+        "Name":"Cable(Feeder)",
+        "type":"C"  
+      },
+      {
+        "no":"12",
+        "Name":"Services",
+        "type":"C"  
+      },
+      {
+        "no":"13",
+        "Name":"Panels",
+        "type":"C"  
+      },
+      {
+        "no":"14",
+        "Name":"Manual Disconnects",
+        "type":"C"  
+      }
+      
+     
+
+]

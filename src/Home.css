@@ -1,0 +1,148 @@
+.row{
+    margin: 0;
+    padding: 10px;
+    background-color: rgba(127, 255, 212, 0.116);
+}
+.head{
+    display:flex;
+    color: black;
+}
+.col-8 h3{
+    margin-right: 1000px;
+}
+.btn{
+  width: 200px;
+  height: 40px;
+
+}
+.butt{
+    background-color: green;
+    color: white;
+  padding: 3px;
+    border-radius: 25px;
+    width: 140px;
+    text-align: center;
+}
+.butt1{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+border: 1px solid black;
+width: 140px;
+text-align: center;
+}
+
+h6{
+    display: flex;
+    gap: 2px;
+}
+.col{
+    background-color: white;
+    border-radius: 3px;
+}
+.toggle {
+    --width: 80px;
+    --height: calc(var(--width) / 3);
+
+    position: relative;
+    display: inline-block;
+    width: var(--width);
+    height: var(--height);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+  }
+
+  .toggle input {
+    display: none;
+  }
+
+  .toggle .labels {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    font-family: sans-serif;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .toggle .labels::after {
+    content: attr(data-off);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    color: #fdfcfc;
+    background-color: #145cf8;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .toggle .labels::before {
+    content: attr(data-on);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    color: #ffffff;
+    background-color: #145cf8;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .toggle input:checked~.labels::after {
+    /* flip 180deg */
+    transform: rotateY(180deg);
+    opacity: 0;
+  }
+
+  .toggle input:checked~.labels::before {
+    transform: rotateY(180deg) scale(-1, 1);
+    opacity: 1;
+  }
+  .search{
+    width: 300px;
+    box-shadow: 1px 1px 1px rgb(0, 0, 0);
+    border:none;
+    border-radius: 3px;
+  }
+  .middle{
+    display: flex;
+    gap: 30px;
+    height: 30px;
+  }
+  .butt3{
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+border: 1px solid black;
+width: 140px;
+text-align: center;
+  }
+  .cn{
+    color: black;
+  }
+  .middle button{
+    color: blue;
+    background-color: white;
+    border: none;
+    box-shadow: 1px 1px 1px 1px;
+    border-radius: 7px;
+  }
+  .para{
+    border: none;
+    border-radius: 7px;
+    display: flex;
+    
+  }
+  table{
+    background: white;
+  }

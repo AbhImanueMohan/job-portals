@@ -1,0 +1,55 @@
+.gap{
+    gap: 7px;
+}
+.na{
+    font-size: 50px;
+    color: white;
+}
+
+.gaps{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.body{
+    background-color:rgba(1, 21, 58, 0.877);
+    padding: 10px;
+align-items: center;
+justify-content: center;    
+}
+.nav{
+    color: white;
+    font-size: larger;
+}
+.images{
+    border-radius: 50%;
+}
+nav ol {
+    padding: 10px;
+
+}
+.row{
+    margin-left: 200px;
+
+}
+.products{
+    width: 100%;
+    margin-right: 60px;
+
+}
+.products .container{
+    max-width: 100%;
+    margin-right: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.products .container .filter .categories ul ol{
+    list-style: none;
+    color: black;
+    cursor: pointer;
+    background-color: rgba(223, 214, 203, 0.377);
+    width: 120px;
+}
